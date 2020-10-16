@@ -18,6 +18,7 @@ class App extends React.Component {
         rocketFeatures: null,
         rockets: [],
         company: null,
+        details: null,
     };
 
     componentDidMount() {
@@ -44,6 +45,10 @@ class App extends React.Component {
             .then((company) => this.setState({ company }));
     }
 
+    updateDetails = (details) => {
+        this.setState({ details });
+    };
+
     changeRocket = (rocket) => {
         this.setState({ rocket }, this.updateRocket);
     };
@@ -68,11 +73,13 @@ class App extends React.Component {
                 </Route>
 
                 <Route path="/calendar">
-                    <Calendar />
+                    <Calendar updateDetails={this.updateDetails} />
                 </Route>
 
                 <Route path="/details">
-                    <Details />
+                    {this.state.details && (
+                        <Details detail={this.state.details} />
+                    )}
                 </Route>
                 {this.state.company && <Footer {...this.state.company} />}
             </BrowserRouter>

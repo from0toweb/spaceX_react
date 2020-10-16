@@ -4,7 +4,7 @@ import FetchData from '../../service/FetchData';
 import Main from '../Main/Main';
 import './calendar.css';
 
-const Calendar = () => {
+const Calendar = (props) => {
     const fetchData = new FetchData();
     const [data, setData] = useState([]);
 
@@ -37,6 +37,9 @@ const Calendar = () => {
                                             <Link
                                                 to="./details"
                                                 className="button launches-details"
+                                                onClick={() =>
+                                                    props.updateDetails(item)
+                                                }
                                             >
                                                 Подробнее
                                             </Link>

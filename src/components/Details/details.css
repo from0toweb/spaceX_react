@@ -3,18 +3,22 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
+.details-content {
+    max-width: 500px;
+    padding-left: 30px;
 
+}
+.details-description {
+    line-height: 1.4;
+}
 .details-title {
     font-size: 32px;
     margin-bottom: 30px;
 }
 
-.details-image,
-.details-content {
-    margin: 0 30px;
-}
+
 
 .details-youtube {
     margin: 0 auto;
