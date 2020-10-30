@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/spaceX_react/static/css/main.5d8b7180.chunk.css",
+    "main.js": "/spaceX_react/static/js/main.302b7868.chunk.js",
+    "main.js.map": "/spaceX_react/static/js/main.302b7868.chunk.js.map",
+    "runtime-main.js": "/spaceX_react/static/js/runtime-main.5e159ab2.js",
+    "runtime-main.js.map": "/spaceX_react/static/js/runtime-main.5e159ab2.js.map",
+    "static/js/2.d11b2701.chunk.js": "/spaceX_react/static/js/2.d11b2701.chunk.js",
+    "static/js/2.d11b2701.chunk.js.map": "/spaceX_react/static/js/2.d11b2701.chunk.js.map",
+    "index.html": "/spaceX_react/index.html",
+    "precache-manifest.934959106fbc01ea355320ac3a309fa5.js": "/spaceX_react/precache-manifest.934959106fbc01ea355320ac3a309fa5.js",
+    "service-worker.js": "/spaceX_react/service-worker.js",
+    "static/css/main.5d8b7180.chunk.css.map": "/spaceX_react/static/css/main.5d8b7180.chunk.css.map",
+    "static/js/2.d11b2701.chunk.js.LICENSE.txt": "/spaceX_react/static/js/2.d11b2701.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/spaceX_react/static/media/logo.d5ab31ce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e159ab2.js",
+    "static/js/2.d11b2701.chunk.js",
+    "static/css/main.5d8b7180.chunk.css",
+    "static/js/main.302b7868.chunk.js"
+  ]
+}
