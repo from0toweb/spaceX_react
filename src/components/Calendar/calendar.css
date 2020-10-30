@@ -42,7 +42,7 @@
 .launches-image img {
     object-fit: cover;
     display: block;
-    margin: 0 auto;
+    margin: 1px auto;
 }
 
 .launches-title {
