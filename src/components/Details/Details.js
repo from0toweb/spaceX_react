@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import YouTube from 'react-youtube';
 import Main from '../Main/Main';
 import './details.css';
 
@@ -30,15 +31,11 @@ const Details = ({ detail }) => {
                         </div>
                     </div>
                     <div>
-                        <iframe
-                            title="frame"
+                        <YouTube
                             className="details-youtube"
                             width="560"
                             height="315"
-                            src={`https://www.youtube.com/embed/${youtubeId}`}
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
+                            videoId={youtubeId}
                         />
                     </div>
                 </div>
