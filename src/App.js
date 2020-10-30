@@ -62,7 +62,7 @@ class App extends React.Component {
                 />
                 <Route
                     exact
-                    path="/"
+                    path="spaceX_react/"
                     render={() =>
                         this.state.company && (
                             <Home company={this.state.company} />
@@ -70,7 +70,7 @@ class App extends React.Component {
                     }
                 />
 
-                <Route path="/rocket">
+                <Route path="spaceX_react/rocket">
                     <Main rocket={this.state.rocket} />
                     {this.state.rocketFeatures && (
                         <Features {...this.state.rocketFeatures} />
@@ -78,14 +78,14 @@ class App extends React.Component {
                 </Route>
 
                 <Route
-                    path="/calendar"
+                    path="spaceX_react/calendar"
                     render={() => (
                         <Calendar updateDetails={this.updateDetails} />
                     )}
                 />
 
                 <Route
-                    path="/details"
+                    path="spaceX_react/details"
                     render={() =>
                         this.state.details && (
                             <Details detail={this.state.details} />

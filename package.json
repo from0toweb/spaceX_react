@@ -25,6 +25,7 @@
             "plugin:prettier/recommended"
         ]
     },
+
     "browserslist": {
         "production": [
             ">0.2%",
