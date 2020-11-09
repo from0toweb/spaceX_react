@@ -6,7 +6,7 @@ import logo from '../../logo.svg';
 const Header = (props) => {
     return (
         <header className="header">
-            <Link href="/" as="/">
+            <Link to="/">
                 <img src={logo} alt="Logo Space X" className="logo" />
             </Link>
             <nav className="main-nav nav">
@@ -14,8 +14,7 @@ const Header = (props) => {
                     {props.rockets.map((item) => (
                         <li className="item" key={item}>
                             <Link
-                                href="/rocket"
-                                as="/rocket"
+                                to="/rocket"
                                 className="item-link"
                                 onClick={(e) => {
                                     props.changeRocket(item);
@@ -32,8 +31,7 @@ const Header = (props) => {
                     <li className="item">
                         <NavLink
                             exact
-                            href="/"
-                            as="/"
+                            to="/"
                             className="item-link"
                             activeClassName="active"
                         >
@@ -42,8 +40,7 @@ const Header = (props) => {
                     </li>
                     <li className="item">
                         <NavLink
-                            href="/calendar"
-                            as="/calendar"
+                            to="/calendar"
                             className="item-link"
                             activeClassName="active"
                         >

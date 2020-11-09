@@ -35,8 +35,7 @@ const Calendar = (props) => {
                                                 {item.name}
                                             </h2>
                                             <Link
-                                                href="/details"
-                                                as="/details"
+                                                to="/details"
                                                 className="button launches-details"
                                                 onClick={() =>
                                                     props.updateDetails(item)
